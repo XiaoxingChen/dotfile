@@ -1,0 +1,1407 @@
+{
+	"MathJax - inline math (brackets)": { 
+		"prefix": "mm", 
+		"body": ["\\($1\\) $0"],
+		"description": "Create inline math formula"
+	},
+	"MathJax - display math (brackets)": { 
+		"prefix": "m[", 
+		"body": ["\\[$1\\]$0"],
+		"description": "Create display math formula"
+	},
+
+
+	"MathJax - left": {
+		"prefix": "left",
+		"body": ["\\left"]
+	},
+	"MathJax - right": {
+		"prefix": "right",
+		"body": ["\\right"]
+	},
+	"MathJax - langle": {
+		"prefix": "langle",
+		"body": ["\\langle "]
+	},
+	"MathJax - rangle": {
+		"prefix": "rangle",
+		"body": ["\\rangle "]
+	},
+	"MathJax - lfloor": {
+		"prefix": "lfloor",
+		"body": ["\\lfloor "]
+	},
+	"MathJax - rfloor": {
+		"prefix": "rfloor",
+		"body": ["\\rfloor "]
+	},
+	"MathJax - lceil": {
+		"prefix": "lceil",
+		"body": ["\\lceil "]
+	},
+	"MathJax - rceil": {
+		"prefix": "rceil",
+		"body": ["\\rceil "]
+	},
+	"MathJax - ulcorner": {
+		"prefix": "ulcorner",
+		"body": ["\\ulcorner "]
+	},
+	"MathJax - urcorner": {
+		"prefix": "urcorner",
+		"body": ["\\urcorner "]
+	},
+	"MathJax - llcorner": {
+		"prefix": "llcorner",
+		"body": ["\\llcorner "]
+	},
+	"MathJax - lrcorner": {
+		"prefix": "lrcorner",
+		"body": ["\\lrcorner "]
+	},
+
+
+	"MathJax - abs": {
+		"prefix": "abs",
+		"body": ["\\left| $1 \\right| $0"]
+	},
+	"MathJax - norm": {
+		"prefix": "norm",
+		"body": ["\\left\\| $1 \\right\\| $0"]
+	},
+	"MathJax - lparenthesis + rparenthesis": {
+		"prefix": "lrparentheses",
+		"body": ["\\left( $1 \\right) $0"]
+	},
+	"MathJax - lbracket + rbracket": {
+		"prefix": "lrbrackets",
+		"body": ["\\left[ $1 \\right] $0"]
+	},
+	"MathJax - lcurlybracket + rcurlybracket": {
+		"prefix": "lrcurlybrackets",
+		"body": ["\\left\\{ $1 \\right\\\\} $0"]
+	},
+	"MathJax - langle + rangle": {
+		"prefix": "lrangle",
+		"body": ["\\left\\langle $1 \\right\\rangle $0"]
+	},
+	"MathJax - lfloor + rfloor": {
+		"prefix": "lrfloor",
+		"body": ["\\left\\lfloor $1 \\right\\rfloor $0"]
+	},
+	"MathJax - lceil + rceil": {
+		"prefix": "lrceil",
+		"body": ["\\left\\lceil $1 \\right\\rceil $0"]
+	},
+	
+
+	"MathJax - infty (alias)": {
+		"prefix": "oo",
+		"body": ["\\infty "]
+	},
+	"MathJax - degree (alias)": {
+		"prefix": "degr",
+		"body": ["^{\\circ} "]
+	},
+	"MathJax - mathbf (alias)": {
+		"prefix": "bf",
+		"body": ["\\mathbf{$1}$0"]
+	},
+	"MathJax - mathbb (alias)": {
+		"prefix": "bb",
+		"body": ["\\mathbb{$1}$0"]
+	},
+	"MathJax - mathbb{R} (alias)": {
+		"prefix": "bbR",
+		"body": ["\\mathbb{R} "]
+	},
+	"MathJax - mathbb{Z} (alias)": {
+		"prefix": "bbZ",
+		"body": ["\\mathbb{Z} "]
+	},
+	"MathJax - mathbb{Q} (alias)": {
+		"prefix": "bbQ",
+		"body": ["\\mathbb{Q} "]
+	},
+	"MathJax - mathbb{N} (alias)": {
+		"prefix": "bbN",
+		"body": ["\\mathbb{N} "]
+	},
+	"MathJax - mathbb{C} (alias)": {
+		"prefix": "bbC",
+		"body": ["\\mathbb{C} "]
+	},
+	"MathJax - Leftrightarrow (alias)": {
+		"prefix": "equivalent",
+		"body": ["\\Leftrightarrow "]
+	},
+	"MathJax - Rightarrow (alias)": {
+		"prefix": "implies",
+		"body": ["\\Rightarrow "]
+	},
+	"MathJax - derivative (alias)": {
+		"prefix": "deriv",
+		"body": ["\\frac{d${1:f}}{d${2:x}} $0"]
+	},
+	"MathJax - partial derivative (alias)": {
+		"prefix": "pderiv",
+		"body": ["\\frac{\\partial ${1:f}}{\\partial ${2:x}} $0"]
+	},
+	"MathJax - cases (alias)": {
+		"prefix": "cases",
+		"body": ["\\begin{cases}","\t$1 &\\text{$2}\\\\\\\\","\t$3 &\\text{$4}\\\\\\\\$5","\\end{cases} $0"]
+	},
+	"MathJax - align (alias)": {
+		"prefix": "align",
+		"body": ["\\begin{${1|align,align*,aligned|}}","\t$2\\\\\\\\","\t$3\\\\\\\\$4","\\end{$1} $0"]
+	},
+
+
+	"MathJax - frac": {
+		"prefix": "frac",
+		"body": ["\\frac{$1}{$2}$0"]
+	},
+	"MathJax - sqrt": {
+		"prefix": "sqrt",
+		"body": ["\\sqrt[$1]{$2}$0"]
+	},
+
+
+	"MathJax - alpha": {
+		"prefix": "alpha",
+		"body": ["\\alpha "]
+	},
+	"MathJax - beta": {
+		"prefix": "beta",
+		"body": ["\\beta "]
+	},
+	"MathJax - gamma": {
+		"prefix": "gamma",
+		"body": ["\\gamma "]
+	},
+	"MathJax - Gamma": {
+		"prefix": "Gamma",
+		"body": ["\\Gamma "]
+	},
+	"MathJax - vargamma": {
+		"prefix": "vargamma",
+		"body": ["\\vargamma "]
+	},
+	"MathJax - delta": {
+		"prefix": "delta",
+		"body": ["\\delta "]
+	},
+	"MathJax - Delta": {
+		"prefix": "Delta",
+		"body": ["\\Delta "]
+	},
+	"MathJax - epsilon": {
+		"prefix": "epsilon",
+		"body": ["\\epsilon "]
+	},
+	"MathJax - varepsilon": {
+		"prefix": "varepsilon",
+		"body": ["\\varepsilon "]
+	},
+	"MathJax - zeta": {
+		"prefix": "zeta",
+		"body": ["\\zeta "]
+	},
+	"MathJax - eta": {
+		"prefix": "eta",
+		"body": ["\\eta "]
+	},
+	"MathJax - theta": {
+		"prefix": "theta",
+		"body": ["\\theta "]
+	},
+	"MathJax - Theta": {
+		"prefix": "Theta",
+		"body": ["\\Theta "]
+	},
+	"MathJax - vartheta": {
+		"prefix": "vartheta",
+		"body": ["\\vartheta "]
+	},
+	"MathJax - iota": {
+		"prefix": "iota",
+		"body": ["\\iota "]
+	},
+	"MathJax - kappa": {
+		"prefix": "kappa",
+		"body": ["\\kappa "]
+	},
+	"MathJax - lambda": {
+		"prefix": "lambda",
+		"body": ["\\lambda "]
+	},
+	"MathJax - Lambda": {
+		"prefix": "Lambda",
+		"body": ["\\Lambda "]
+	},
+	"MathJax - mu": {
+		"prefix": "mu",
+		"body": ["\\mu "]
+	},
+	"MathJax - nu": {
+		"prefix": "nu",
+		"body": ["\\nu "]
+	},
+	"MathJax - xi": {
+		"prefix": "xi",
+		"body": ["\\xi "]
+	},
+	"MathJax - Xi": {
+		"prefix": "Xi",
+		"body": ["\\Xi "]
+	},
+	"MathJax - pi": {
+		"prefix": "pi",
+		"body": ["\\pi "]
+	},
+	"MathJax - Pi": {
+		"prefix": "Pi",
+		"body": ["\\Pi "]
+	},
+	"MathJax - varpi": {
+		"prefix": "varpi",
+		"body": ["\\varpi "]
+	},
+	"MathJax - rho": {
+		"prefix": "rho",
+		"body": ["\\rho "]
+	},
+	"MathJax - varrho": {
+		"prefix": "varrho",
+		"body": ["\\varrho "]
+	},
+	"MathJax - sigma": {
+		"prefix": "sigma",
+		"body": ["\\sigma "]
+	},
+	"MathJax - Sigma": {
+		"prefix": "Sigma",
+		"body": ["\\Sigma "]
+	},
+	"MathJax - varsigma": {
+		"prefix": "varsigma",
+		"body": ["\\varsigma "]
+	},
+	"MathJax - tau": {
+		"prefix": "tau",
+		"body": ["\\tau "]
+	},
+	"MathJax - upsilon": {
+		"prefix": "upsilon",
+		"body": ["\\upsilon "]
+	},
+	"MathJax - Upsilon": {
+		"prefix": "Upsilon",
+		"body": ["\\Upsilon "]
+	},
+	"MathJax - phi": {
+		"prefix": "phi",
+		"body": ["\\phi "]
+	},
+	"MathJax - Phi": {
+		"prefix": "Phi",
+		"body": ["\\Phi "]
+	},
+	"MathJax - varphi": {
+		"prefix": "varphi",
+		"body": ["\\varphi "]
+	},
+	"MathJax - chi": {
+		"prefix": "chi",
+		"body": ["\\chi "]
+	},
+	"MathJax - psi": {
+		"prefix": "psi",
+		"body": ["\\psi "]
+	},
+	"MathJax - Psi": {
+		"prefix": "Psi",
+		"body": ["\\Psi "]
+	},
+	"MathJax - omega": {
+		"prefix": "omega",
+		"body": ["\\omega "]
+	},
+	"MathJax - Omega": {
+		"prefix": "Omega",
+		"body": ["\\Omega "]
+	},
+	"MathJax - digamma": {
+		"prefix": "digamma",
+		"body": ["\\digamma "]
+	},
+	"MathJax - Digamma": {
+		"prefix": "Digamma",
+		"body": ["\\Digamma "]
+	},
+	
+
+
+	"MathJax - aleph": {
+		"prefix": "aleph",
+		"body": ["\\aleph "]
+	},
+	"MathJax - beth": {
+		"prefix": "beth",
+		"body": ["\\beth "]
+	},
+	"MathJax - gimel": {
+		"prefix": "gimel",
+		"body": ["\\gimel "]
+	},
+	"MathJax - daleth": {
+		"prefix": "daleth",
+		"body": ["\\daleth "]
+	},
+
+
+
+	"MathJax - cup": {
+		"prefix": "cup",
+		"body": ["\\cup "]
+	},
+	"MathJax - cap": {
+		"prefix": "cap",
+		"body": ["\\cap "]
+	},
+	"MathJax - sqcup": {
+		"prefix": "sqcup",
+		"body": ["\\sqcup "]
+	},
+	"MathJax - sqcap": {
+		"prefix": "sqcap",
+		"body": ["\\sqcap "]
+	},
+	"MathJax - subset": {
+		"prefix": "subset",
+		"body": ["\\subset "]
+	},
+	"MathJax - notsubset": {
+		"prefix": "notsubset",
+		"body": ["\\not\\subset "]
+	},
+	"MathJax - subseteq": {
+		"prefix": "subseteq",
+		"body": ["\\subseteq "]
+	},
+	"MathJax - nsubseteq": {
+		"prefix": "nsubseteq",
+		"body": ["\\nsubseteq "]
+	},
+	"MathJax - sqsubset": {
+		"prefix": "sqsubset",
+		"body": ["\\sqsubset "]
+	},
+	"MathJax - sqsubseteq": {
+		"prefix": "sqsubseteq",
+		"body": ["\\sqsubseteq "]
+	},
+	"MathJax - sqsupset": {
+		"prefix": "sqsupset",
+		"body": ["\\sqsupset "]
+	},
+	"MathJax - sqsupseteq": {
+		"prefix": "sqsupseteq",
+		"body": ["\\sqsupseteq "]
+	},
+	"MathJax - supset": {
+		"prefix": "supset",
+		"body": ["\\supset "]
+	},
+	"MathJax - notsupset": {
+		"prefix": "notsupset",
+		"body": ["\\not\\supset "]
+	},
+	"MathJax - supseteq": {
+		"prefix": "supseteq",
+		"body": ["\\supseteq "]
+	},
+	"MathJax - nsupseteq": {
+		"prefix": "nsupseteq",
+		"body": ["\\nsupseteq "]
+	},
+	"MathJax - in": {
+		"prefix": "in",
+		"body": ["\\in "]
+	},
+	"MathJax - ni": {
+		"prefix": "ni",
+		"body": ["\\ni "]
+	},
+	"MathJax - not in": {
+		"prefix": "notin",
+		"body": ["\\not\\in "]
+	},
+	"MathJax - not": {
+		"prefix": "not",
+		"body": ["\\not "]
+	},
+	"MathJax - varnothing": {
+		"prefix": "varnothing",
+		"body": ["\\varnothing "]
+	},
+	"MathJax - emptyset": {
+		"prefix": "emptyset",
+		"body": ["\\emptyset "]
+	},
+	"MathJax - setminus": {
+		"prefix": "setminus",
+		"body": ["\\setminus "]
+	},
+	"MathJax - equiv": {
+		"prefix": "equiv",
+		"body": ["\\equiv "]
+	},
+	"MathJax - forall": {
+		"prefix": "forall",
+		"body": ["\\forall "]
+	},
+	"MathJax - exists": {
+		"prefix": "exists",
+		"body": ["\\exists "]
+	},
+	"MathJax - nexists": {
+		"prefix": "nexists",
+		"body": ["\\nexists "]
+	},
+	"MathJax - therefore": {
+		"prefix": "therefore",
+		"body": ["\\therefore "]
+	},
+	"MathJax - because": {
+		"prefix": "because",
+		"body": ["\\because "]
+	},
+	"MathJax - neg": {
+		"prefix": "neg",
+		"body": ["\\neg "]
+	},
+	"MathJax - lnot": {
+		"prefix": "lnot",
+		"body": ["\\lnot "]
+	},
+	"MathJax - vee": {
+		"prefix": "vee",
+		"body": ["\\vee "]
+	},
+	"MathJax - lor": {
+		"prefix": "lor",
+		"body": ["\\lor "]
+	},
+	"MathJax - wedge": {
+		"prefix": "wedge",
+		"body": ["\\wedge "]
+	},
+	"MathJax - land": {
+		"prefix": "land",
+		"body": ["\\land "]
+	},
+	"MathJax - vdash": {
+		"prefix": "vdash",
+		"body": ["\\vdash "]
+	},
+	"MathJax - dashv": {
+		"prefix": "dashv",
+		"body": ["\\dashv "]
+	},
+	"MathJax - models": {
+		"prefix": "models",
+		"body": ["\\models "]
+	},
+
+
+
+	"MathJax - acute": {
+		"prefix": "acute",
+		"body": ["\\acute{$1}$0"]
+	},
+	"MathJax - breve": {
+		"prefix": "breve",
+		"body": ["\\breve{$1}$0"]
+	},
+	"MathJax - check": {
+		"prefix": "check",
+		"body": ["\\check{$1}$0"]
+	},
+	"MathJax - mathring": {
+		"prefix": "mathring",
+		"body": ["\\mathring{$1}$0"]
+	},
+	"MathJax - grave": {
+		"prefix": "grave",
+		"body": ["\\grave{$1}$0"]
+	},
+	"MathJax - dot": {
+		"prefix": "dot",
+		"body": ["\\dot{$1}$0"]
+	},
+	"MathJax - ddot": {
+		"prefix": "ddot",
+		"body": ["\\ddot{$1}$0"]
+	},
+	"MathJax - hat": {
+		"prefix": "hat",
+		"body": ["\\hat{$1}$0"]
+	},
+	"MathJax - tilde": {
+		"prefix": "tilde",
+		"body": ["\\tilde{$1}$0"]
+	},
+	"MathJax - bar": {
+		"prefix": "bar",
+		"body": ["\\bar{$1}$0"]
+	},
+	"MathJax - vec": {
+		"prefix": "vec",
+		"body": ["\\vec{$1}$0"]
+	},
+	"MathJax - mathbf": {
+		"prefix": "mathbf",
+		"body": ["\\mathbf{$1}$0"]
+	},
+	"MathJax - mathbb": {
+		"prefix": "mathbb",
+		"body": ["\\mathbb{$1}$0"]
+	},
+	"MathJax - mathcal": {
+		"prefix": "mathcal",
+		"body": ["\\mathcal{$1}$0"]
+	},
+	"MathJax - mathfrak": {
+		"prefix": "mathfrak",
+		"body": ["\\mathfrak{$1}$0"]
+	},
+	"MathJax - mathscr": {
+		"prefix": "mathscr",
+		"body": ["\\mathscr{$1}$0"]
+	},
+	"MathJax - overline": {
+		"prefix": "overline",
+		"body": ["\\overline{$1}$0"]
+	},
+	"MathJax - widehat": {
+		"prefix": "widehat",
+		"body": ["\\widehat{$1}$0"]
+	},
+	"MathJax - widetilde": {
+		"prefix": "widetilde",
+		"body": ["\\widetilde{$1}$0"]
+	},
+	"MathJax - overbrace": {
+		"prefix": "overbrace",
+		"body": ["\\overbrace{$1}^{$2}$0"]
+	},
+	"MathJax - underbrace": {
+		"prefix": "underbrace",
+		"body": ["\\underbrace{$1}_{$2}$0"]
+	},
+	
+
+
+	"MathJax - sin": {
+		"prefix": "sin",
+		"body": ["\\sin "]
+	},
+	"MathJax - cos": {
+		"prefix": "cos",
+		"body": ["\\cos "]
+	},
+	"MathJax - tan": {
+		"prefix": "tan",
+		"body": ["\\tan "]
+	},
+	"MathJax - sec": {
+		"prefix": "sec",
+		"body": ["\\sec "]
+	},
+	"MathJax - csc": {
+		"prefix": "csc",
+		"body": ["\\csc "]
+	},
+	"MathJax - cot": {
+		"prefix": "cot",
+		"body": ["\\cot "]
+	},
+	"MathJax - exp": {
+		"prefix": "exp",
+		"body": ["\\exp "]
+	},
+	"MathJax - log": {
+		"prefix": "log",
+		"body": ["\\log_{$1} $0"]
+	},
+	"MathJax - ln": {
+		"prefix": "ln",
+		"body": ["\\ln "]
+	},
+	"MathJax - lg": {
+		"prefix": "lg",
+		"body": ["\\lg "]
+	},
+	"MathJax - sinh": {
+		"prefix": "sinh",
+		"body": ["\\sinh "]
+	},
+	"MathJax - cosh": {
+		"prefix": "cosh",
+		"body": ["\\cosh "]
+	},
+	"MathJax - tanh": {
+		"prefix": "tanh",
+		"body": ["\\tanh "]
+	},
+	"MathJax - coth": {
+		"prefix": "coth",
+		"body": ["\\coth "]
+	},
+	"MathJax - det": {
+		"prefix": "det",
+		"body": ["\\det "]
+	},
+	"MathJax - dim": {
+		"prefix": "dim",
+		"body": ["\\dim "]
+	},
+	"MathJax - ker": {
+		"prefix": "ker",
+		"body": ["\\ker "]
+	},
+	"MathJax - deg": {
+		"prefix": "deg",
+		"body": ["\\deg "]
+	},
+	"MathJax - arg": {
+		"prefix": "arg",
+		"body": ["\\arg "]
+	},
+	"MathJax - gcd": {
+		"prefix": "gcd",
+		"body": ["\\gcd "]
+	},
+	"MathJax - arcsin": {
+		"prefix": "arcsin",
+		"body": ["\\arcsin "]
+	},
+	"MathJax - arccos": {
+		"prefix": "arccos",
+		"body": ["\\arccos "]
+	},
+	"MathJax - arctan": {
+		"prefix": "arctan",
+		"body": ["\\arctan "]
+	},
+	"MathJax - arccsc": {
+		"prefix": "arccsc",
+		"body": ["\\operatorname{arccsc} "]
+	},
+	"MathJax - arcsec": {
+		"prefix": "arcsec",
+		"body": ["\\operatorname{arcsec} "]
+	},
+	"MathJax - arccot": {
+		"prefix": "arccot",
+		"body": ["\\operatorname{arccot} "]
+	},
+	"MathJax - arsinh": {
+		"prefix": "arsinh",
+		"body": ["\\operatorname{arsinh} "]
+	},
+	"MathJax - arcosh": {
+		"prefix": "arcosh",
+		"body": ["\\operatorname{arcosh} "]
+	},
+	"MathJax - artanh": {
+		"prefix": "artanh",
+		"body": ["\\operatorname{artanh} "]
+	},
+	"MathJax - csch": {
+		"prefix": "csch",
+		"body": ["\\operatorname{csch} "]
+	},
+	"MathJax - sech": {
+		"prefix": "sech",
+		"body": ["\\operatorname{sech} "]
+	},
+	"MathJax - arcsch": {
+		"prefix": "arcsch",
+		"body": ["\\operatorname{arcsch} "]
+	},
+	"MathJax - arsech": {
+		"prefix": "arsech",
+		"body": ["\\operatorname{arsech} "]
+	},
+	"MathJax - arcoth": {
+		"prefix": "arcoth",
+		"body": ["\\operatorname{arcoth} "]
+	},
+	"MathJax - min": {
+		"prefix": "min",
+		"body": ["\\min "]
+	},
+	"MathJax - max": {
+		"prefix": "max",
+		"body": ["\\max "]
+	},
+	"MathJax - inf": {
+		"prefix": "inf",
+		"body": ["\\inf "]
+	},
+	"MathJax - sup": {
+		"prefix": "sup",
+		"body": ["\\sup "]
+	},
+	"MathJax - liminf": {
+		"prefix": "liminf",
+		"body": ["\\liminf "]
+	},
+	"MathJax - limsup": {
+		"prefix": "limsup",
+		"body": ["\\limsup "]
+	},
+	"MathJax - lim": {
+		"prefix": "lim",
+		"body": ["\\lim_{${1:x} \\to ${2:\\infty}} $0"]
+	},
+
+
+
+	"MathJax - leq": {
+		"prefix": "leq",
+		"body": ["\\leq "]
+	},
+	"MathJax - geq": {
+		"prefix": "geq",
+		"body": ["\\geq "]
+	},
+	"MathJax - neq": {
+		"prefix": "neq",
+		"body": ["\\neq "]
+	},
+	"MathJax - leqslant": {
+		"prefix": "leqslant",
+		"body": ["\\leqslant "]
+	},
+	"MathJax - geqslant": {
+		"prefix": "geqslant",
+		"body": ["\\geqslant "]
+	},
+	"MathJax - ll": {
+		"prefix": "ll",
+		"body": ["\\ll "]
+	},
+	"MathJax - lll": {
+		"prefix": "lll",
+		"body": ["\\lll "]
+	},
+	"MathJax - gg": {
+		"prefix": "gg",
+		"body": ["\\gg "]
+	},
+	"MathJax - ggg": {
+		"prefix": "ggg",
+		"body": ["\\ggg "]
+	},
+	"MathJax - nless": {
+		"prefix": "nless",
+		"body": ["\\nless "]
+	},
+	"MathJax - nleq": {
+		"prefix": "nleq",
+		"body": ["\\nleq "]
+	},
+	"MathJax - nleqslant": {
+		"prefix": "nleqslant",
+		"body": ["\\nleqslant "]
+	},
+	"MathJax - ngtr": {
+		"prefix": "ngtr",
+		"body": ["\\ngtr "]
+	},
+	"MathJax - ngeq": {
+		"prefix": "ngeq",
+		"body": ["\\ngeq "]
+	},
+	"MathJax - ngeqslant": {
+		"prefix": "ngeqslant",
+		"body": ["\\ngeqslant "]
+	},
+	"MathJax - approx": {
+		"prefix": "approx",
+		"body": ["\\approx "]
+	},
+	"MathJax - asymp": {
+		"prefix": "asymp",
+		"body": ["\\asymp "]
+	},
+	"MathJax - prec": {
+		"prefix": "prec",
+		"body": ["\\prec "]
+	},
+	"MathJax - nprec": {
+		"prefix": "nprec",
+		"body": ["\\nprec "]
+	},
+	"MathJax - preceq": {
+		"prefix": "preceq",
+		"body": ["\\preceq "]
+	},
+	"MathJax - npreceq": {
+		"prefix": "npreceq",
+		"body": ["\\npreceq "]
+	},
+	"MathJax - succ": {
+		"prefix": "succ",
+		"body": ["\\succ "]
+	},
+	"MathJax - nsucc": {
+		"prefix": "nsucc",
+		"body": ["\\nsucc "]
+	},
+	"MathJax - succeq": {
+		"prefix": "succeq",
+		"body": ["\\succeq "]
+	},
+	"MathJax - nsucceq": {
+		"prefix": "nsucceq",
+		"body": ["\\nsucceq "]
+	},
+	"MathJax - propto": {
+		"prefix": "propto",
+		"body": ["\\propto "]
+	},
+	"MathJax - doteq": {
+		"prefix": "doteq",
+		"body": ["\\doteq "]
+	},
+	"MathJax - triangle": {
+		"prefix": "triangle",
+		"body": ["\\triangle "]
+	},
+	"MathJax - triangleright": {
+		"prefix": "triangleright",
+		"body": ["\\triangleright "]
+	},
+	"MathJax - triangleleft": {
+		"prefix": "triangleleft",
+		"body": ["\\triangleleft "]
+	},
+	"MathJax - angle": {
+		"prefix": "angle",
+		"body": ["\\angle "]
+	},
+	"MathJax - measuredangle": {
+		"prefix": "measuredangle",
+		"body": ["\\measuredangle "]
+	},
+	"MathJax - ell": {
+		"prefix": "ell",
+		"body": ["\\ell "]
+	},
+	"MathJax - parallel": {
+		"prefix": "parallel",
+		"body": ["\\parallel "]
+	},
+	"MathJax - nparallel": {
+		"prefix": "nparallel",
+		"body": ["\\nparallel "]
+	},
+	"MathJax - bowtie": {
+		"prefix": "bowtie",
+		"body": ["\\bowtie "]
+	},
+	"MathJax - perp": {
+		"prefix": "perp",
+		"body": ["\\perp "]
+	},
+	"MathJax - notperp": {
+		"prefix": "notperp",
+		"body": ["\\not\\perp "]
+	},
+	"MathJax - smile": {
+		"prefix": "smile",
+		"body": ["\\smile "]
+	},
+	"MathJax - frown": {
+		"prefix": "frown",
+		"body": ["\\frown "]
+	},
+	"MathJax - circ": {
+		"prefix": "circ",
+		"body": ["\\circ "]
+	},
+	"MathJax - degree": {
+		"prefix": "degree",
+		"body": ["\\degree "]
+	},
+	"MathJax - cong": {
+		"prefix": "cong",
+		"body": ["\\cong "]
+	},
+	"MathJax - ncong": {
+		"prefix": "ncong",
+		"body": ["\\ncong "]
+	},
+	"MathJax - sim": {
+		"prefix": "sim",
+		"body": ["\\sim "]
+	},
+	"MathJax - simeq": {
+		"prefix": "simeq",
+		"body": ["\\simeq "]
+	},
+	"MathJax - nsim": {
+		"prefix": "nsim",
+		"body": ["\\nsim "]
+	},
+	"MathJax - bullet": {
+		"prefix": "bullet",
+		"body": ["\\bullet "]
+	},
+	"MathJax - diamond": {
+		"prefix": "diamond",
+		"body": ["\\diamond "]
+	},
+	"MathJax - uplus": {
+		"prefix": "uplus",
+		"body": ["\\uplus "]
+	},
+	"MathJax - oplus": {
+		"prefix": "oplus",
+		"body": ["\\oplus "]
+	},
+	"MathJax - ominus": {
+		"prefix": "ominus",
+		"body": ["\\ominus "]
+	},
+	"MathJax - odot": {
+		"prefix": "odot",
+		"body": ["\\odot "]
+	},
+	"MathJax - otimes": {
+		"prefix": "otimes",
+		"body": ["\\otimes "]
+	},
+	"MathJax - oslash": {
+		"prefix": "oslash",
+		"body": ["\\oslash "]
+	},
+	"MathJax - upharpoonright": {
+		"prefix": "upharpoonright",
+		"body": ["\\upharpoonright "]
+	},
+	"MathJax - cdot": {
+		"prefix": "cdot",
+		"body": ["\\cdot "]
+	},
+	"MathJax - cdots": {
+		"prefix": "cdots",
+		"body": ["\\cdots "]
+	},
+	"MathJax - ldots": {
+		"prefix": "ldots",
+		"body": ["\\ldots "]
+	},
+	"MathJax - vdots": {
+		"prefix": "vdots",
+		"body": ["\\vdots "]
+	},
+	"MathJax - ddots": {
+		"prefix": "ddots",
+		"body": ["\\ddots "]
+	},
+	"MathJax - pm": {
+		"prefix": "pm",
+		"body": ["\\pm "]
+	},
+	"MathJax - mp": {
+		"prefix": "mp",
+		"body": ["\\mp "]
+	},
+	"MathJax - times": {
+		"prefix": "times",
+		"body": ["\\times "]
+	},
+	"MathJax - div": {
+		"prefix": "div",
+		"body": ["\\div "]
+	},
+	"MathJax - ast": {
+		"prefix": "ast",
+		"body": ["\\ast "]
+	},
+	"MathJax - mid": {
+		"prefix": "mid",
+		"body": ["\\mid "]
+	},
+	"MathJax - nmid": {
+		"prefix": "nmid",
+		"body": ["\\nmid "]
+	},
+	"MathJax - partial": {
+		"prefix": "partial",
+		"body": ["\\partial "]
+	},
+	"MathJax - nabla": {
+		"prefix": "nabla",
+		"body": ["\\nabla "]
+	},
+	"MathJax - hbar": {
+		"prefix": "hbar",
+		"body": ["\\hbar "]
+	},
+	"MathJax - star": {
+		"prefix": "star",
+		"body": ["\\star "]
+	},
+	"MathJax - surd": {
+		"prefix": "surd",
+		"body": ["\\surd "]
+	},
+	"MathJax - checkmark": {
+		"prefix": "checkmark",
+		"body": ["\\checkmark "]
+	},
+	"MathJax - bigcirc": {
+		"prefix": "bigcirc",
+		"body": ["\\bigcirc "]
+	},
+	"MathJax - amalg": {
+		"prefix": "amalg",
+		"body": ["\\amalg "]
+	},
+	"MathJax - bigtriangleup": {
+		"prefix": "bigtriangleup",
+		"body": ["\\bigtriangleup "]
+	},
+	"MathJax - bigtriangledown": {
+		"prefix": "bigtriangledown",
+		"body": ["\\bigtriangledown "]
+	},
+	"MathJax - dagger": {
+		"prefix": "dagger",
+		"body": ["\\dagger "]
+	},
+	"MathJax - ddagger": {
+		"prefix": "ddagger",
+		"body": ["\\ddagger "]
+	},
+	"MathJax - wr": {
+		"prefix": "wr",
+		"body": ["\\wr "]
+	},
+	"MathJax - wp": {
+		"prefix": "wp",
+		"body": ["\\wp "]
+	},
+	"MathJax - Re": {
+		"prefix": "Re",
+		"body": ["\\Re "]
+	},
+	"MathJax - Im": {
+		"prefix": "Im",
+		"body": ["\\Im "]
+	},
+	"MathJax - imath": {
+		"prefix": "imath",
+		"body": ["\\imath "]
+	},
+	"MathJax - jmath": {
+		"prefix": "jmath",
+		"body": ["\\jmath "]
+	},
+	"MathJax - eth": {
+		"prefix": "eth",
+		"body": ["\\eth "]
+	},
+	"MathJax - prime": {
+		"prefix": "prime",
+		"body": ["\\prime "]
+	},
+	"MathJax - Box": {
+		"prefix": "Box",
+		"body": ["\\Box "]
+	},
+	"MathJax - bot": {
+		"prefix": "bot",
+		"body": ["\\bot "]
+	},
+	"MathJax - top": {
+		"prefix": "top",
+		"body": ["\\top "]
+	},
+	"MathJax - infty": {
+		"prefix": "infty",
+		"body": ["\\infty "]
+	},
+
+
+
+	"MathJax - sum": {
+		"prefix": "sum",
+		"body": ["\\sum_{$1}^{$2}$0"]
+	},
+	"MathJax - prod": {
+		"prefix": "prod",
+		"body": ["\\prod_{$1}^{$2}$0"]
+	},
+	"MathJax - int": {
+		"prefix": "int",
+		"body": ["\\int_{$1}^{$2}$0"]
+	},
+	"MathJax - iint": {
+		"prefix": "iint",
+		"body": ["\\iint_{$1}^{$2}$0"]
+	},
+	"MathJax - iiint": {
+		"prefix": "iiint",
+		"body": ["\\iiint_{$1}^{$2}$0"]
+	},
+	"MathJax - oint": {
+		"prefix": "oint",
+		"body": ["\\oint_{$1}^{$2}$0"]
+	},
+	"MathJax - bigcup": {
+		"prefix": "bigcup",
+		"body": ["\\bigcup_{$1}^{$2}$0"]
+	},
+	"MathJax - bigcap": {
+		"prefix": "bigcap",
+		"body": ["\\bigcap_{$1}^{$2}$0"]
+	},
+	"MathJax - bigvee": {
+		"prefix": "bigvee",
+		"body": ["\\bigvee_{$1}^{$2}$0"]
+	},
+	"MathJax - bigwedge": {
+		"prefix": "bigwedge",
+		"body": ["\\bigwedge_{$1}^{$2}$0"]
+	},
+	"MathJax - coprod": {
+		"prefix": "coprod",
+		"body": ["\\coprod_{$1}^{$2}$0"]
+	},
+	"MathJax - biguplus": {
+		"prefix": "biguplus",
+		"body": ["\\biguplus_{$1}^{$2}$0"]
+	},
+	"MathJax - bigodot": {
+		"prefix": "bigodot",
+		"body": ["\\bigodot_{$1}^{$2}$0"]
+	},
+	"MathJax - bigoplus": {
+		"prefix": "bigoplus",
+		"body": ["\\bigoplus_{$1}^{$2}$0"]
+	},
+	"MathJax - bigotimes": {
+		"prefix": "bigotimes",
+		"body": ["\\bigotimes_{$1}^{$2}$0"]
+	},
+
+
+
+	"MathJax - iff": {
+		"prefix": "iff",
+		"body": ["\\iff "]
+	},
+	"MathJax - implies": {
+		"prefix": "implies",
+		"body": ["\\implies "]
+	},
+	"MathJax - rightarrow": {
+		"prefix": "rightarrow",
+		"body": ["\\rightarrow "]
+	},
+	"MathJax - to": {
+		"prefix": "to",
+		"body": ["\\to "]
+	},
+	"MathJax - nrightarrow": {
+		"prefix": "nrightarrow",
+		"body": ["\\nrightarrow "]
+	},
+	"MathJax - longrightarrow": {
+		"prefix": "longrightarrow",
+		"body": ["\\longrightarrow "]
+	},
+	"MathJax - Rightarrow": {
+		"prefix": "Rightarrow",
+		"body": ["\\Rightarrow "]
+	},
+	"MathJax - Longrightarrow": {
+		"prefix": "Longrightarrow",
+		"body": ["\\Longrightarrow "]
+	},
+	"MathJax - Leftarrow": {
+		"prefix": "Leftarrow",
+		"body": ["\\Leftarrow "]
+	},
+	"MathJax - Longleftarrow": {
+		"prefix": "Longleftarrow",
+		"body": ["\\Longleftarrow "]
+	},
+	"MathJax - Leftrightarrow": {
+		"prefix": "Leftrightarrow",
+		"body": ["\\Leftrightarrow "]
+	},
+	"MathJax - Longleftrightarrow": {
+		"prefix": "Longleftrightarrow",
+		"body": ["\\Longleftrightarrow "]
+	},
+	"MathJax - nRightarrow": {
+		"prefix": "nRightarrow",
+		"body": ["\\nRightarrow "]
+	},
+	"MathJax - leadsto": {
+		"prefix": "leadsto",
+		"body": ["\\leadsto "]
+	},
+	"MathJax - mapsto": {
+		"prefix": "mapsto",
+		"body": ["\\mapsto "]
+	},
+	"MathJax - longmapsto": {
+		"prefix": "longmapsto",
+		"body": ["\\longmapsto "]
+	},
+	"MathJax - longleftarrow": {
+		"prefix": "longleftarrow",
+		"body": ["\\longleftarrow "]
+	},
+	"MathJax - leftarrow": {
+		"prefix": "leftarrow",
+		"body": ["\\leftarrow "]
+	},
+	"MathJax - gets": {
+		"prefix": "gets",
+		"body": ["\\gets "]
+	},
+	"MathJax - leftrightarrow": {
+		"prefix": "leftrightarrow",
+		"body": ["\\leftrightarrow "]
+	},
+	"MathJax - longleftrightarrow": {
+		"prefix": "longleftrightarrow",
+		"body": ["\\longleftrightarrow "]
+	},
+	"MathJax - downarrow": {
+		"prefix": "downarrow",
+		"body": ["\\downarrow "]
+	},
+	"MathJax - Downarrow": {
+		"prefix": "Downarrow",
+		"body": ["\\Downarrow "]
+	},
+	"MathJax - uparrow": {
+		"prefix": "uparrow",
+		"body": ["\\uparrow "]
+	},
+	"MathJax - Uparrow": {
+		"prefix": "Uparrow",
+		"body": ["\\Uparrow "]
+	},
+	"MathJax - updownarrow": {
+		"prefix": "updownarrow",
+		"body": ["\\updownarrow "]
+	},
+	"MathJax - Updownarrow": {
+		"prefix": "Updownarrow",
+		"body": ["\\Updownarrow "]
+	},
+	"MathJax - hookleftarrow": {
+		"prefix": "hookleftarrow",
+		"body": ["\\hookleftarrow "]
+	},
+	"MathJax - hookrightarrow": {
+		"prefix": "hookrightarrow",
+		"body": ["\\hookrightarrow "]
+	},
+	"MathJax - leftharpoonup": {
+		"prefix": "leftharpoonup",
+		"body": ["\\leftharpoonup "]
+	},
+	"MathJax - rightharpoonup": {
+		"prefix": "rightharpoonup",
+		"body": ["\\rightharpoonup "]
+	},
+	"MathJax - leftharpoondown": {
+		"prefix": "leftharpoondown",
+		"body": ["\\leftharpoondown "]
+	},
+	"MathJax - rightharpoondown": {
+		"prefix": "rightharpoondown",
+		"body": ["\\rightharpoondown "]
+	},
+	"MathJax - rightleftharpoons": {
+		"prefix": "rightleftharpoons",
+		"body": ["\\rightleftharpoons "]
+	},
+	"MathJax - nearrow": {
+		"prefix": "nearrow",
+		"body": ["\\nearrow "]
+	},
+	"MathJax - searrow": {
+		"prefix": "searrow",
+		"body": ["\\searrow "]
+	},
+	"MathJax - nwarrow": {
+		"prefix": "nwarrow",
+		"body": ["\\nwarrow "]
+	},
+	"MathJax - swarrow": {
+		"prefix": "swarrow",
+		"body": ["\\swarrow "]
+	},
+	"MathJax - overrightarrow": {
+		"prefix": "overrightarrow",
+		"body": ["\\overrightarrow{$1}$0"]
+	},
+	"MathJax - underrightarrow": {
+		"prefix": "underrightarrow",
+		"body": ["\\underrightarrow{$1}$0"]
+	},
+	"MathJax - overleftarrow": {
+		"prefix": "overleftarrow",
+		"body": ["\\overleftarrow{$1}$0"]
+	},
+	"MathJax - underleftarrow": {
+		"prefix": "underleftarrow",
+		"body": ["\\underleftarrow{$1}$0"]
+	},
+	"MathJax - overleftrightarrow": {
+		"prefix": "overleftrightarrow",
+		"body": ["\\overleftrightarrow{$1}$0"]
+	},
+	"MathJax - underleftrightarrow": {
+		"prefix": "underleftrightarrow",
+		"body": ["\\underleftrightarrow{$1}$0"]
+	},
+	
+
+
+	"MathJax - begin": {
+		"prefix": "begin",
+		"body": ["\\begin{$1}","\t$2","\\end{$1}", "$0"]
+	},
+	"MathJax - text": {
+		"prefix": "text",
+		"body": ["\\text{$1}$0"]
+	},
+	"MathJax - operatorname": {
+		"prefix": "operatorname",
+		"body": ["\\operatorname{$1}$0"]
+	},
+	"MathJax - displaystyle ": {
+		"prefix": "displaystyle ",
+		"body": ["\\displaystyle "]
+	},
+	"MathJax - textbackslash ": {
+		"prefix": "textbackslash ",
+		"body": ["\\textbackslash "]
+	}
+
+}
