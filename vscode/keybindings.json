@@ -1,5 +1,10 @@
 // Place your key bindings in this file to overwrite the defaults
 [
+    // 
+    // 
+    // file navigation
+    // 
+    // 
     {
         "key": "alt+left",
         "command": "workbench.action.navigateBack"
@@ -16,6 +21,11 @@
         "key": "ctrl+shift+-",
         "command": "-workbench.action.navigateForward"
     },
+    // 
+    // 
+    // terminal
+    // 
+    // 
     {
         "key": "ctrl+shift+t",
         "command": "workbench.action.terminal.new"
@@ -34,95 +44,74 @@
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
     },
+    // 
+    // 
+    // Remove cursor word bindings
+    // 
+    // 
     {
-        "key": "ctrl+shift+\\",
-        "command": "workbench.action.splitEditorOrthogonal",
+        "key": "ctrl+left",
+        "command": "-cursorWordStartLeft",
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+k ctrl+\\",
-        "command": "-workbench.action.splitEditorOrthogonal"
+        "key": "ctrl+right",
+        "command": "-cursorWordStartRight",
+        "when": "textInputFocus"
     },
     {
-        "key": "alt+w",
-        "command": "workbench.action.focusAboveGroup"
+        "key": "ctrl+shift+left",
+        "command": "-cursorWordStartLeftSelect",
+        "when": "textInputFocus"
     },
     {
-        "key": "ctrl+k ctrl+up",
-        "command": "-workbench.action.focusAboveGroup"
+        "key": "ctrl+shift+right",
+        "command": "-cursorWordStartRightSelect",
+        "when": "textInputFocus"
     },
     {
-        "key": "alt+s",
-        "command": "workbench.action.focusBelowGroup"
+        "key": "ctrl+backspace",
+        "command": "-deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+k ctrl+down",
-        "command": "-workbench.action.focusBelowGroup"
+        "key": "ctrl+delete",
+        "command": "-deleteWordRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    // 
+    // 
+    // Add cursor part word bindings
+    // 
+    // 
+    {
+        "key": "ctrl+left",
+        "command": "cursorWordPartLeft",
+        "when": "textInputFocus"
     },
     {
-        "key": "alt+a",
-        "command": "workbench.action.focusLeftGroup"
+        "key": "ctrl+right",
+        "command": "cursorWordPartRight",
+        "when": "textInputFocus"
     },
     {
-        "key": "ctrl+k ctrl+left",
-        "command": "-workbench.action.focusLeftGroup"
+        "key": "ctrl+shift+left",
+        "command": "cursorWordPartLeftSelect",
+        "when": "textInputFocus"
     },
     {
-        "key": "alt+d",
-        "command": "workbench.action.focusRightGroup"
+        "key": "ctrl+shift+right",
+        "command": "cursorWordPartRightSelect",
+        "when": "textInputFocus"
     },
     {
-        "key": "ctrl+k ctrl+right",
-        "command": "-workbench.action.focusRightGroup"
+        "key": "ctrl+backspace",
+        "command": "deleteWordPartLeft",
+        "when": "textInputFocus && !editorReadonly"
     },
     {
-        "key": "alt+d",
-        "command": "workbench.action.terminal.focusNextPane",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+down",
-        "command": "-workbench.action.terminal.focusNextPane",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+right",
-        "command": "-workbench.action.terminal.focusNextPane",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+a",
-        "command": "workbench.action.terminal.focusPreviousPane",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+left",
-        "command": "-workbench.action.terminal.focusPreviousPane",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+up",
-        "command": "-workbench.action.terminal.focusPreviousPane",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+\\",               
-        "command": "workbench.action.splitEditor",
-        "when": "textInputFocus" 
-    },
-    {
-        "key": "ctrl+shift+5",
-        "command": "-workbench.action.terminal.split",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "shift+alt+up",
-        "command": "editor.action.insertCursorAbove",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+up",
-        "command": "-editor.action.insertCursorAbove",
-        "when": "editorTextFocus"
+        "key": "ctrl+delete",
+        "command": "deleteWordPartRight",
+        "when": "textInputFocus && !editorReadonly"
     }
 ]
