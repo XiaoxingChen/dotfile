@@ -1,0 +1,8 @@
+{
+    
+    "python - path": { 
+		"prefix": "script_folder", 
+		"body": ["script_folder = os.path.abspath(os.path.dirname(__file__))"],
+		"description": "folder of current script"
+	}
+}
