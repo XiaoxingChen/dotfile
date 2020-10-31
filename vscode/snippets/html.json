@@ -11,7 +11,11 @@
 	},
 
 	"MathJax - relative-error": {
-		"prefix": "relativeerror",
+		"prefix": "relative_error",
+		"body": ["\\frac{\\|\\delta $1 \\|}{\\|$1\\|}$0 "]
+	},
+	"MathJax - relative-error full": {
+		"prefix": "relative_error_full",
 		"body": ["\\frac{\\left\\|\\delta $1 \\right\\|}{\\left\\|$1\\right\\|}$0 "]
 	},
 
@@ -84,10 +88,18 @@
 
 	"MathJax - abs": {
 		"prefix": "abs",
+		"body": ["| $0 |"]
+	},
+	"MathJax - abs full": {
+		"prefix": "abs_full",
 		"body": ["\\left| $0 \\right|"]
 	},
 	"MathJax - norm": {
 		"prefix": "norm",
+		"body": ["\\| $0 \\|"]
+	},
+	"MathJax - norm full": {
+		"prefix": "norm_full",
 		"body": ["\\left\\| $0 \\right\\|"]
 	},
 	"MathJax - lparenthesis + rparenthesis": {
@@ -175,6 +187,10 @@
 	"MathJax - align (alias)": {
 		"prefix": "align",
 		"body": ["\\begin{${1|align,align*,aligned|}}","\t$2\\\\\\\\","\t$3\\\\\\\\$4","\\end{$1} $0"]
+	},
+	"MathJax - matrix": {
+		"prefix": "matrix",
+		"body": ["\\left[ ", "\\begin{matrix}","\t0$1 & 0$2\\\\","\t0 & 0\\\\","\\end{matrix}", " \\right] "]
 	},
 
 
