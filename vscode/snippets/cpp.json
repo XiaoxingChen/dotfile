@@ -1,0 +1,13 @@
+{
+    "cpp - include local": { 
+		"prefix": "include", 
+		"body": ["#include \"$1\"$0\n"],
+		"description": "add \"\" include declaration"
+    },
+    "cpp - include system": { 
+		"prefix": "include", 
+		"body": ["#include <${1|vector,iostream,map,string|}>$0\n"],
+		"description": "add <> include declaration"
+	}
+    
+}

@@ -1,0 +1,6 @@
+{
+    "LaTex - langle + rangle": {
+		"prefix": "lrangle",
+		"body": ["\\langle $1 \\rangle $0"]
+	}
+}

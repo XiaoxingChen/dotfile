@@ -1439,6 +1439,12 @@
 	"MathJax - textbackslash ": {
 		"prefix": "textbackslash ",
 		"body": ["\\textbackslash "]
+	},
+
+	"color - font":
+	{
+		"prefix": "color-span",
+		"body":["<span style=\"color: ${1|red,blue|};\">$2</span>$0"]
 	}
 
 }
