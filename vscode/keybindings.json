@@ -49,68 +49,68 @@
     // Remove cursor word bindings
     // 
     // 
-    {
-        "key": "ctrl+left",
-        "command": "-cursorWordStartLeft",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+right",
-        "command": "-cursorWordStartRight",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+shift+left",
-        "command": "-cursorWordStartLeftSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+shift+right",
-        "command": "-cursorWordStartRightSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+backspace",
-        "command": "-deleteWordLeft",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+delete",
-        "command": "-deleteWordRight",
-        "when": "textInputFocus && !editorReadonly"
-    },
+    // {
+    //     "key": "ctrl+left",
+    //     "command": "-cursorWordStartLeft",
+    //     "when": "textInputFocus"
+    // },
+    // {
+    //     "key": "ctrl+right",
+    //     "command": "-cursorWordStartRight",
+    //     "when": "textInputFocus"
+    // },
+    // {
+    //     "key": "ctrl+shift+left",
+    //     "command": "-cursorWordStartLeftSelect",
+    //     "when": "textInputFocus"
+    // },
+    // {
+    //     "key": "ctrl+shift+right",
+    //     "command": "-cursorWordStartRightSelect",
+    //     "when": "textInputFocus"
+    // },
+    // {
+    //     "key": "ctrl+backspace",
+    //     "command": "-deleteWordLeft",
+    //     "when": "textInputFocus && !editorReadonly"
+    // },
+    // {
+    //     "key": "ctrl+delete",
+    //     "command": "-deleteWordRight",
+    //     "when": "textInputFocus && !editorReadonly"
+    // },
     // 
     // 
     // Add cursor part word bindings
     // 
     // 
     {
-        "key": "ctrl+left",
+        "key": "ctrl+meta+left",
         "command": "cursorWordPartLeft",
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+right",
+        "key": "ctrl+meta+right",
         "command": "cursorWordPartRight",
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+left",
+        "key": "ctrl+shift+meta+left",
         "command": "cursorWordPartLeftSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+right",
+        "key": "ctrl+shift+meta+right",
         "command": "cursorWordPartRightSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+backspace",
+        "key": "ctrl+meta+backspace",
         "command": "deleteWordPartLeft",
         "when": "textInputFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+delete",
+        "key": "ctrl+meta+delete",
         "command": "deleteWordPartRight",
         "when": "textInputFocus && !editorReadonly"
     }
