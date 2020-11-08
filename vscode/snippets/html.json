@@ -10,6 +10,18 @@
 		"description": "Create display math formula"
 	},
 
+	"MathJax - subscript": { 
+		"prefix": "ss", 
+		"body": ["_{$1}$0"],
+		"description": "subscript"
+	},
+
+	"MathJax - superscript": { 
+		"prefix": "xp", 
+		"body": ["^{$1}$0"],
+		"description": "superscript"
+	},
+
 	"MathJax - relative-error": {
 		"prefix": "relative_error",
 		"body": ["\\frac{\\|\\delta $1 \\|}{\\|$1\\|}$0 "]
@@ -190,7 +202,7 @@
 	},
 	"MathJax - matrix": {
 		"prefix": "matrix",
-		"body": ["\\left[ ", "\\begin{matrix}","\t0$1 & 0$2\\\\","\t0 & 0\\\\","\\end{matrix}", " \\right] "]
+		"body": ["\\left[ ", "\\begin{matrix}","\t0$1 & 0$2 \\\\\\\\","\t0 & 0 \\\\\\\\","\\end{matrix}", " \\right] "]
 	},
 
 
