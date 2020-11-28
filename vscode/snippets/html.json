@@ -6,31 +6,36 @@
 			"<script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML\"></script>\n"
 		]
 	},
-	"MathJax - inline math (brackets)": { 
-		"prefix": "mm", 
+	"MathJax - inline math (brackets)": {
+		"prefix": "mm",
 		"body": ["\\($0\\) "],
 		"description": "Create inline math formula"
 	},
-	"MathJax - display math (brackets)": { 
-		"prefix": "m[", 
+	"MathJax - display math (brackets)": {
+		"prefix": "m[",
 		"body": ["\\[\n\t$0\n\\]"],
 		"description": "Create display math formula"
 	},
+	"MathJax - in real space": {
+		"prefix": "inr",
+		"body": ["\\in \\mathbb{R}^{m \\times n$1}$0"],
+		"description": "in real space"
+	},
 
-	"MathJax - right vert": { 
-		"prefix": "rv", 
+	"MathJax - right vert": {
+		"prefix": "rv",
 		"body": ["\\left. $1 \\right\\vert$0"],
 		"description": "right vertical line"
 	},
 
-	"MathJax - subscript": { 
-		"prefix": "ss", 
+	"MathJax - subscript": {
+		"prefix": "ss",
 		"body": ["_{$1}$0"],
 		"description": "subscript"
 	},
 
-	"MathJax - superscript": { 
-		"prefix": "xp", 
+	"MathJax - superscript": {
+		"prefix": "xp",
 		"body": ["^{$1}$0"],
 		"description": "superscript"
 	},
@@ -151,7 +156,7 @@
 		"prefix": "lrceil",
 		"body": ["\\left\\lceil $1 \\right\\rceil $0"]
 	},
-	
+
 
 	"MathJax - infty (alias)": {
 		"prefix": "oo",
@@ -401,7 +406,7 @@
 		"prefix": "Digamma",
 		"body": ["\\Digamma "]
 	},
-	
+
 
 
 	"MathJax - aleph": {
@@ -662,7 +667,7 @@
 		"prefix": "underbrace",
 		"body": ["\\underbrace{$1}_{$2}$0"]
 	},
-	
+
 
 
 	"MathJax - sin": {
@@ -1442,7 +1447,7 @@
 		"prefix": "underleftrightarrow",
 		"body": ["\\underleftrightarrow{$1}$0"]
 	},
-	
+
 
 
 	"MathJax - begin": {
