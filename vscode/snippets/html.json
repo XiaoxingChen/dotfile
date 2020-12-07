@@ -236,175 +236,175 @@
 
 	"MathJax - alpha": {
 		"prefix": "alpha",
-		"body": ["\\alpha "]
+		"body": ["\\alpha"]
 	},
 	"MathJax - beta": {
 		"prefix": "beta",
-		"body": ["\\beta "]
+		"body": ["\\beta"]
 	},
 	"MathJax - gamma": {
 		"prefix": "gamma",
-		"body": ["\\gamma "]
+		"body": ["\\gamma"]
 	},
 	"MathJax - Gamma": {
 		"prefix": "Gamma",
-		"body": ["\\Gamma "]
+		"body": ["\\Gamma"]
 	},
 	"MathJax - vargamma": {
 		"prefix": "vargamma",
-		"body": ["\\vargamma "]
+		"body": ["\\vargamma"]
 	},
 	"MathJax - delta": {
 		"prefix": "delta",
-		"body": ["\\delta "]
+		"body": ["\\delta"]
 	},
 	"MathJax - Delta": {
 		"prefix": "Delta",
-		"body": ["\\Delta "]
+		"body": ["\\Delta"]
 	},
 	"MathJax - epsilon": {
 		"prefix": "epsilon",
-		"body": ["\\epsilon "]
+		"body": ["\\epsilon"]
 	},
 	"MathJax - varepsilon": {
 		"prefix": "varepsilon",
-		"body": ["\\varepsilon "]
+		"body": ["\\varepsilon"]
 	},
 	"MathJax - zeta": {
 		"prefix": "zeta",
-		"body": ["\\zeta "]
+		"body": ["\\zeta"]
 	},
 	"MathJax - eta": {
 		"prefix": "eta",
-		"body": ["\\eta "]
+		"body": ["\\eta"]
 	},
 	"MathJax - theta": {
 		"prefix": "theta",
-		"body": ["\\theta "]
+		"body": ["\\theta"]
 	},
 	"MathJax - Theta": {
 		"prefix": "Theta",
-		"body": ["\\Theta "]
+		"body": ["\\Theta"]
 	},
 	"MathJax - vartheta": {
 		"prefix": "vartheta",
-		"body": ["\\vartheta "]
+		"body": ["\\vartheta"]
 	},
 	"MathJax - iota": {
 		"prefix": "iota",
-		"body": ["\\iota "]
+		"body": ["\\iota"]
 	},
 	"MathJax - kappa": {
 		"prefix": "kappa",
-		"body": ["\\kappa "]
+		"body": ["\\kappa"]
 	},
 	"MathJax - lambda": {
 		"prefix": "lambda",
-		"body": ["\\lambda "]
+		"body": ["\\lambda"]
 	},
 	"MathJax - Lambda": {
 		"prefix": "Lambda",
-		"body": ["\\Lambda "]
+		"body": ["\\Lambda"]
 	},
 	"MathJax - mu": {
 		"prefix": "mu",
-		"body": ["\\mu "]
+		"body": ["\\mu"]
 	},
 	"MathJax - nu": {
 		"prefix": "nu",
-		"body": ["\\nu "]
+		"body": ["\\nu"]
 	},
 	"MathJax - xi": {
 		"prefix": "xi",
-		"body": ["\\xi "]
+		"body": ["\\xi"]
 	},
 	"MathJax - Xi": {
 		"prefix": "Xi",
-		"body": ["\\Xi "]
+		"body": ["\\Xi"]
 	},
 	"MathJax - pi": {
 		"prefix": "pi",
-		"body": ["\\pi "]
+		"body": ["\\pi"]
 	},
 	"MathJax - Pi": {
 		"prefix": "Pi",
-		"body": ["\\Pi "]
+		"body": ["\\Pi"]
 	},
 	"MathJax - varpi": {
 		"prefix": "varpi",
-		"body": ["\\varpi "]
+		"body": ["\\varpi"]
 	},
 	"MathJax - rho": {
 		"prefix": "rho",
-		"body": ["\\rho "]
+		"body": ["\\rho"]
 	},
 	"MathJax - varrho": {
 		"prefix": "varrho",
-		"body": ["\\varrho "]
+		"body": ["\\varrho"]
 	},
 	"MathJax - sigma": {
 		"prefix": "sigma",
-		"body": ["\\sigma "]
+		"body": ["\\sigma"]
 	},
 	"MathJax - Sigma": {
 		"prefix": "Sigma",
-		"body": ["\\Sigma "]
+		"body": ["\\Sigma"]
 	},
 	"MathJax - varsigma": {
 		"prefix": "varsigma",
-		"body": ["\\varsigma "]
+		"body": ["\\varsigma"]
 	},
 	"MathJax - tau": {
 		"prefix": "tau",
-		"body": ["\\tau "]
+		"body": ["\\tau"]
 	},
 	"MathJax - upsilon": {
 		"prefix": "upsilon",
-		"body": ["\\upsilon "]
+		"body": ["\\upsilon"]
 	},
 	"MathJax - Upsilon": {
 		"prefix": "Upsilon",
-		"body": ["\\Upsilon "]
+		"body": ["\\Upsilon"]
 	},
 	"MathJax - phi": {
 		"prefix": "phi",
-		"body": ["\\phi "]
+		"body": ["\\phi"]
 	},
 	"MathJax - Phi": {
 		"prefix": "Phi",
-		"body": ["\\Phi "]
+		"body": ["\\Phi"]
 	},
 	"MathJax - varphi": {
 		"prefix": "varphi",
-		"body": ["\\varphi "]
+		"body": ["\\varphi"]
 	},
 	"MathJax - chi": {
 		"prefix": "chi",
-		"body": ["\\chi "]
+		"body": ["\\chi"]
 	},
 	"MathJax - psi": {
 		"prefix": "psi",
-		"body": ["\\psi "]
+		"body": ["\\psi"]
 	},
 	"MathJax - Psi": {
 		"prefix": "Psi",
-		"body": ["\\Psi "]
+		"body": ["\\Psi"]
 	},
 	"MathJax - omega": {
 		"prefix": "omega",
-		"body": ["\\omega "]
+		"body": ["\\omega"]
 	},
 	"MathJax - Omega": {
 		"prefix": "Omega",
-		"body": ["\\Omega "]
+		"body": ["\\Omega"]
 	},
 	"MathJax - digamma": {
 		"prefix": "digamma",
-		"body": ["\\digamma "]
+		"body": ["\\digamma"]
 	},
 	"MathJax - Digamma": {
 		"prefix": "Digamma",
-		"body": ["\\Digamma "]
+		"body": ["\\Digamma"]
 	},
 
 
