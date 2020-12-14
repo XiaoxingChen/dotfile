@@ -836,7 +836,10 @@
 	},
 
 
-
+	"MathJax - lt": {
+		"prefix": "lt",
+		"body": ["&lt;"]
+	},
 	"MathJax - leq": {
 		"prefix": "leq",
 		"body": ["\\leq "]
