@@ -1,4 +1,4 @@
 {
     "editor.minimap.enabled": false,
-    "files.trimTrailingWhitespace": false
+    "files.trimTrailingWhitespace":true 
 }
