@@ -1,10 +1,10 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    // 
-    // 
+    //
+    //
     // file navigation
-    // 
-    // 
+    //
+    //
     {
         "key": "alt+left",
         "command": "workbench.action.navigateBack"
@@ -21,11 +21,11 @@
         "key": "ctrl+shift+-",
         "command": "-workbench.action.navigateForward"
     },
-    // 
-    // 
+    //
+    //
     // terminal
-    // 
-    // 
+    //
+    //
     {
         "key": "ctrl+shift+t",
         "command": "workbench.action.terminal.new"
@@ -44,11 +44,11 @@
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
     },
-    // 
-    // 
+    //
+    //
     // Remove cursor word bindings
-    // 
-    // 
+    //
+    //
     // {
     //     "key": "ctrl+left",
     //     "command": "-cursorWordStartLeft",
@@ -79,11 +79,11 @@
     //     "command": "-deleteWordRight",
     //     "when": "textInputFocus && !editorReadonly"
     // },
-    // 
-    // 
+    //
+    //
     // Add cursor part word bindings
-    // 
-    // 
+    //
+    //
     {
         "key": "ctrl+meta+left",
         "command": "cursorWordPartLeft",
@@ -113,5 +113,18 @@
         "key": "ctrl+meta+delete",
         "command": "deleteWordPartRight",
         "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
     }
 ]
