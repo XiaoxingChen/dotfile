@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-import os
 import sys
 
 def setGlobalIgnore():
@@ -29,9 +27,3 @@ fi
     os.system('brew install git bash-completion')
     with open(bash_profile_path, 'a') as f:
         f.write(sh_func)
-
-if __name__ == "__main__":
-    os.system("git config --global core.whitespace cr-at-eol")
-    os.system("git config --global core.editor vim")
-    setGlobalIgnore()
-    setGitAutoComplete()
