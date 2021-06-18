@@ -63,7 +63,7 @@ def updateKeyBindings(dirs):
     # overwrite keybindings.json
     if not os.path.isdir(dirs.vscode_user_folder):
         os.makedirs(dirs.vscode_user_folder, exist_ok=True)
-    shutil.copy(os.path.join(dirs.script_folder, 'keybindings.json'), dirs.vscode_user_folder)
+    shutil.copy(os.path.join(dirs.script_folder, sys.platform ,'keybindings.json'), dirs.vscode_user_folder)
 
 def updateSnippets(dirs):
     # overwrite snippets folder

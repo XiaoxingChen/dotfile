@@ -1,0 +1,130 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    //
+    //
+    // file navigation
+    //
+    //
+    {
+        "key": "alt+left",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+alt+-",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward"
+    },
+    //
+    //
+    // terminal
+    //
+    //
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new"
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    //
+    //
+    // Remove cursor word bindings
+    //
+    //
+    // {
+    //     "key": "ctrl+left",
+    //     "command": "-cursorWordStartLeft",
+    //     "when": "textInputFocus"
+    // },
+    // {
+    //     "key": "ctrl+right",
+    //     "command": "-cursorWordStartRight",
+    //     "when": "textInputFocus"
+    // },
+    // {
+    //     "key": "ctrl+shift+left",
+    //     "command": "-cursorWordStartLeftSelect",
+    //     "when": "textInputFocus"
+    // },
+    // {
+    //     "key": "ctrl+shift+right",
+    //     "command": "-cursorWordStartRightSelect",
+    //     "when": "textInputFocus"
+    // },
+    // {
+    //     "key": "ctrl+backspace",
+    //     "command": "-deleteWordLeft",
+    //     "when": "textInputFocus && !editorReadonly"
+    // },
+    // {
+    //     "key": "ctrl+delete",
+    //     "command": "-deleteWordRight",
+    //     "when": "textInputFocus && !editorReadonly"
+    // },
+    //
+    //
+    // Add cursor part word bindings
+    //
+    //
+    {
+        "key": "ctrl+meta+left",
+        "command": "cursorWordPartLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+meta+right",
+        "command": "cursorWordPartRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+meta+left",
+        "command": "cursorWordPartLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+meta+right",
+        "command": "cursorWordPartRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+meta+backspace",
+        "command": "deleteWordPartLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+meta+delete",
+        "command": "deleteWordPartRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    }
+]
