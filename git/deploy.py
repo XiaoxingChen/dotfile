@@ -6,6 +6,8 @@ def setGlobalIgnore():
     global_ignore_path = None
     if sys.platform in {'darwin', 'linux'}:
         global_ignore_path = os.path.join(os.environ['HOME'], '.gitignore_global')
+    elif sys.platform == 'win32':
+        global_ignore_path = os.path.join(os.environ['HOMEDRIVE'] + os.environ['HOMEPATH'], '.gitignore_global')
     with open(global_ignore_path, 'w') as f:
         f.write('/.vscode/\n')
 
