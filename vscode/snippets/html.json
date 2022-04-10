@@ -146,7 +146,7 @@
 	},
 	"MathJax - langle + rangle": {
 		"prefix": "lrangle",
-		"body": ["\\left\\langle $1 \\right\\rangle $0"]
+		"body": ["\\langle $1 \\rangle $0"]
 	},
 	"MathJax - lfloor + rfloor": {
 		"prefix": "lrfloor",
@@ -230,7 +230,7 @@
 	},
 	"MathJax - sqrt": {
 		"prefix": "sqrt",
-		"body": ["\\sqrt[$1]{$2}$0"]
+		"body": ["\\sqrt{$1}$0"]
 	},
 
 
@@ -1522,6 +1522,14 @@
 	{
 		"prefix": "mdquote",
 		"body":["<blockquote class=\"md\">", "\t$1", "</blockquote>$0"]
+	},
+	"MathJax - qubit - bra": {
+		"prefix": "bra",
+		"body": ["\\langle $1 | $0"]
+	},
+	"MathJax - qubit - ket": {
+		"prefix": "ket",
+		"body": ["| $1 \\rangle $0"]
 	}
 
 }
