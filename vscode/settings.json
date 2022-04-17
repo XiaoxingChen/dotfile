@@ -1,4 +1,5 @@
 {
     "editor.minimap.enabled": false,
-    "files.trimTrailingWhitespace":true 
+    "files.trimTrailingWhitespace":true,
+    "audioCues.volume": 0
 }
