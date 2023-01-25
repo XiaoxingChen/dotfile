@@ -1,5 +1,16 @@
 import os
 import re
+import subprocess
+import sys
+
+def askForRootPermission():
+    if os.geteuid() == 0:
+        print("run with root")
+        return
+
+    print("Permission denied")
+    subprocess.call(['sudo', 'python3', *sys.argv])
+    sys.exit()
 
 def appendToConfigFile(file_path, setting_str, task=None, comment_char='#'):
     if not os.path.isfile(file_path):
