@@ -1,5 +1,6 @@
 {
     "editor.minimap.enabled": false,
     "files.trimTrailingWhitespace":true,
-    "audioCues.volume": 0
+    "audioCues.volume": 0,
+    "window.autoDetectColorScheme": true
 }
