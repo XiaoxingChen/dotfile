@@ -2,6 +2,8 @@
 import os
 import sys
 
+script_folder = os.path.abspath(os.path.dirname(__file__))
+
 sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), '..'))
 from config_lib import appendToConfigFile
 
@@ -9,6 +11,7 @@ class Dir():
     bashrc = os.path.expanduser('~/.bashrc')
     bash_profile = os.path.expanduser('~/.bash_profile')
     inputrc = os.path.expanduser('~/.inputrc')
+    toggle_theme_script = os.path.join(script_folder, 'toggle_theme.py')
 
 def setBashColor():
     # Reference:
@@ -48,12 +51,16 @@ def setCustonPrompt():
     contents = "export PS1='$(whoami)@$(hostname):$(pwd)$ '"
     appendToConfigFile(Dir.bashrc, contents, "bash custom prompt")
 
+def addThemeToggleScriptToBashrc():
+    appendToConfigFile(Dir.bashrc, "alias toggle_theme='python3 {}'".format(Dir.toggle_theme_script), 'theme_toggle')
+
 if __name__ == "__main__":
     if sys.platform != 'darwin':
         print('Current OS is not macosx. Quit.')
         quit()
-    setBashColor()
+    # setBashColor()
     setBashComplete()
     setBashProfile()
     setInputrc()
     setCustonPrompt()
+    addThemeToggleScriptToBashrc()
